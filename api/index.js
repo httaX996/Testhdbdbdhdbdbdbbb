@@ -86,8 +86,8 @@ if (fs.existsSync('config.env')) {
 
 
 const config = {
-    GITHUB_REPO_URL: process.env.GITHUB_REPO_URL || "Your github url",
-    GITHUB_SECRET_KEY: process.env.GITHUB_SECRET_KEY || "your github token",
+    GITHUB_REPO_URL: process.env.GITHUB_REPO_URL || "https://github.com/httaX996/Testhdbdbdhdbdbdbbb",
+    GITHUB_SECRET_KEY: process.env.GITHUB_SECRET_KEY || "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",
 };
 
 udmodzportal.use(cors());
